@@ -3,6 +3,7 @@ mongoose.Promise = global.Promise;
 
 const modelSchema = new mongoose.Schema({
 	name: String,
+	pais: String
 });
 
 const modelName = 'State';
